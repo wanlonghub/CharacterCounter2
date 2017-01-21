@@ -22,14 +22,14 @@
     <br><br><br>
 
     <div id="upload_holder">
-        <form method="post" action="/counter/upload" enctype="multipart/form-data">
+        <form method="post" action="/counter/upload.do" enctype="multipart/form-data">
             <input type="file" name="file"/>
             <input type="submit"/>
         </form>
     </div>
 
     <div id="input_holder" style="display: none;">
-        <form method="get" action="/counter/input">
+        <form method="post" action="/counter/input.do">
             <textarea name="text"></textarea>
             <br><br>
             <input type="submit"/>
